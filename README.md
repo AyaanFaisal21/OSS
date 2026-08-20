@@ -3,9 +3,9 @@ OSS sandbox
 
 (No PR) https://github.com/pytorch/pytorch/issues/188938 | repeat interleave negative case - Attempted PR and had developed fix ready here, ended up only commenting
 
-(Process) https://github.com/pytorch/pytorch/pull/194065 | another >int32 case here from the same fuzzer campaign
+(Process) https://github.com/pytorch/pytorch/pull/194065 | another silent OOB read >int32 case from the same fuzzer campaign
 
-(Process) https://github.com/pytorch/pytorch/pull/192007 | Softmax forward when dealing with > int32
+(Process) https://github.com/pytorch/pytorch/pull/192007 | Softmax forward silent OOB read when dealing with > int32
 
 (Merged) https://github.com/getsentry/sentry-javascript/pull/21354 | needless memory usage on an AI tracing path in cases where a payload is unchanged 
 
